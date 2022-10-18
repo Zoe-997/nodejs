@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="page-title">Chat!</h1>
+    <form action="" class="form-chat">
+        <input type="text" id="message" placeholder="Message">
+        <input type="submit" value="Send">
+    </form>
+
+    <ul id="thread"></ul>
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
